@@ -1,0 +1,28 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/sgm/cover1.png",
+      "title": "SGM - Islazul",
+      "technologies": "React - JS - HTML - CSS - JSX - Bootstrap - Git",
+      "url": "",
+      "type": "private",
+      "description" : "This project description"
+    },
+    {
+      "cover": "/portfolio/ticTacToe/cover.jpg",
+      "title": "React's TicTacToe",
+      "technologies": "React - JS - CSS - JSX - Git",
+      "url": "https://github.com/alexsoul99/tic-tac-toe-react-game",
+      "type": "",
+      "description" : "This project description"
+    },
+    {
+      "cover": "/portfolio/agendaExpress/cover.png",
+      "title": "AgendaExpress",
+      "technologies": "OdooERP - Python - PostgreSQL - XML - CSV",
+      "url": "",
+      "type": "private",
+      "description" : "This project description"
+    }
+  ]
+}

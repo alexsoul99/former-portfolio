@@ -1,0 +1,62 @@
+.info-container {
+  position: relative;
+  height: inherit;
+  width: inherit;
+  z-index: 99;
+  background: linear-gradient(180deg, #05698aed, #000000ed);
+}
+
+.close-btn {
+  padding: 0 20px;
+  height: 30px;
+  line-height: 25px;
+  border: 2px solid #07bcf9;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #07bcf9;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  cursor: pointer;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+
+  &:hover {
+    transform: translateY(-3px);
+    background: #07bcf9;
+    color: #181818;
+  }
+}
+
+.info-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #07bcf9;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.info-techs {
+  font-size: 1.8rem;
+  font: 400;
+  color: #fff;
+  text-align: left;
+  padding: 0.5rem 0 1rem 0.5rem;
+}
+
+.info-desc {
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 0.5rem 0 1rem 0.5rem;
+}
+
+b {
+  color: #07bcf9;
+}
+
+hr {
+  color: #07bcf9;
+}
